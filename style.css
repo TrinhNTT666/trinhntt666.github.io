@@ -1,0 +1,67 @@
+.container{
+	width:1280px;
+	margin:0 auto;
+}
+.clearfix{
+	overflow:hidden;
+}
+.logo{
+	width:25%;
+	padding:100px 0;
+	float:left;
+	background:red;
+}
+.menu{
+	width:75%;
+	padding:100px 0;
+	float:left;
+	background:blue;
+}
+.bottom-header .item{
+	width:20%;
+	padding:50px 0;
+	background:yellow;
+	float:left;
+}
+.main-a{
+	width:25%;
+	float:left;
+}
+.main-b{
+	width:60%;
+	float:left;
+}
+.main-c{
+	width:15%;
+	float:left;
+}
+.main-a .item{
+	padding:200px 0;
+	background:orange;
+}
+.main-b .item{
+	padding:100px 0;
+	background:#88a3f2;
+}
+.main-c .item{
+	padding:200px 0;
+	background:green;
+}
+.top-footer .item-a{
+	width:25%;
+	padding:25px 0;
+	background:blue;
+	float:left;
+}
+.top-footer .item-b{
+	width:10%;
+	padding:25px 0;
+	background:pink;
+	float:left;
+}
+.bottom-footer{
+	width:100%;
+	padding:35px 0;
+	background:#aa62f7;
+	float:left;
+}
