@@ -98,6 +98,10 @@ header{
 	padding:28px 82px;
 	display:inline-block;
 }
+.itemx:hover{
+	background:#ff5522;
+	border-radius:8px;
+}
 /*End Header*/
 /**start main**/
 /**start green**/
@@ -433,6 +437,10 @@ header{
 	padding:28px 55px 28px 59px;
 	display:inline-block;
 }
+.itemy:hover {
+	background:#17aaa1;
+	border-radius:8px;
+}
 /* end yellow */
 /* start pink */
 .pink-main{
@@ -552,7 +560,7 @@ header{
 }
 .blue-d{
 	margin-top:62px;
-	background:#17c2a4;
+	background:#0cf;
 	border-radius:5px;
 	display:inline-block;
 	margin-left:423px;
