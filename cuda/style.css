@@ -442,7 +442,7 @@ header{
 .pink-top-a{
 	font-size:2.5rem;
 	line-height:1.87rem;
-	color:#3c4761;
+	color:#fff;
 	text-align:center;
 }
 .pink-top-b{
@@ -454,7 +454,7 @@ header{
 .text-d{
 	font-size:1.125rem;
 	line-height:1.625rem;
-	color:#3c4761;
+	color:#fff;
 	text-align:center;
 }
 .pink-mid{
@@ -481,3 +481,124 @@ header{
 	line-height:1.95rem;
 	font-style:italic;
 }
+.namec{
+	line-height:1.625rem;
+	padding-top:27px;
+	font-size:1.5rem;
+	color:#ffffff;
+	padding-left:165px;
+}
+.named{
+	line-height:1.625rem;
+	font-size:1.2rem;
+	color:#ffdd99;
+	padding-left:165px;
+}
+.pink-mid-b{
+	padding-top:180px;
+	padding-bottom:132px;
+}
+/* end pink */
+/* start blue */
+.blue-main{
+	background:#3c5499;
+	padding-top:118px;
+}
+.blue-top-a{
+	font-size:2.5rem;
+	line-height:1.87rem;
+	color:#fff;
+	text-align:center;
+}
+.blue-top-b{
+	background:#3c4761;
+	height:4px;
+	width:87px;
+	margin:23px 526px 25px 527px;
+}
+.text-e{
+	font-size:1.125rem;
+	line-height:1.625rem;
+	color:#fff;
+	text-align:center;
+	padding-bottom:76px;
+}
+.blue-a{
+	width:50%;
+	float:left;
+	position:relative;
+}
+.blue-aa{
+	margin-left:10px;
+	padding-left:20px;
+	color:#fff;
+	font-size:20px;
+}
+.blue-aaa{
+	width:80%;
+	background:#273a71;
+	padding:15px 25px;
+	border-radius:5px;
+}
+#blue-cc{
+	padding:15px 25px;
+	margin:30px 25px 0px;
+	color:#fff;
+	background:#273a71;
+	width:91%;
+	height:120px;
+	max-width:100%;
+	border-radius:5px;
+}
+.blue-d{
+	margin-top:62px;
+	background:#17c2a4;
+	border-radius:5px;
+	display:inline-block;
+	margin-left:423px;
+	margin-bottom:163px;
+}
+.blue-dd{
+	line-height:1.63rem;
+	display:inline-block;
+	padding:28px 83px 28px 83px;
+	text-align:center;
+	color:#ffffff;
+	font-size:1.125rem;
+	text-decoration:none;
+}
+.blue-dd:hover {
+	background:#16aaa1;
+	border-radius:5px;
+}
+/* end blue */
+/* end main */
+/* start footer */
+.footera{
+	background:#344b8e;
+}
+.footer-a{
+	background:#344b8e;
+}
+.footer-aaa{
+	padding-top:48px;
+	list-style:none;
+	text-align:center;
+}
+.footer-b{
+	display:inline-block;
+}
+.footer-bb{
+	padding-left:58px;
+	font-size:1.5rem;
+	text-decoration:none;
+	list-style:none;
+	text-align:center;
+	display:inline-block;
+	line-height:1.86rem;
+	color:#ffffff;
+}
+.footer-bb:hover{
+	color:#66FFFF;
+}
+/* end footer */
