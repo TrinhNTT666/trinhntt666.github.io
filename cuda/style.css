@@ -241,7 +241,6 @@ header{
 }
 .gray-mid{
 	padding-top:78px;
-	float:left;
 }
 .mid-a{
 	padding-left:50px;
@@ -519,7 +518,7 @@ header{
 	text-align:center;
 }
 .blue-top-b{
-	background:#3c4761;
+	background:#273a71;
 	height:4px;
 	width:87px;
 	margin:23px 526px 25px 527px;
@@ -531,22 +530,21 @@ header{
 	text-align:center;
 	padding-bottom:76px;
 }
-.blue-a{
-	width:50%;
-	float:left;
-	position:relative;
+span{
+	color:#f00;
 }
-.blue-aa{
-	margin-left:10px;
-	padding-left:20px;
+.text-x{
 	color:#fff;
-	font-size:20px;
-}
-.blue-aaa{
-	width:80%;
 	background:#273a71;
-	padding:15px 25px;
-	border-radius:5px;
+	float:left;
+}
+#yourname{
+	width:297px;
+	height:56px;
+	font-size:1rem;
+	line-height:1.125rem;
+	background:#273a71;
+	float:left;
 }
 #blue-cc{
 	padding:15px 25px;
