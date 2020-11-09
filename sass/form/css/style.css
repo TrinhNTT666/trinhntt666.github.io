@@ -1,0 +1,26 @@
+.sidebar {
+  padding: 5px 5px 4px 6px;
+  margin: 5px 5px 4px 6px; }
+
+.danger {
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  color: red; }
+
+.warning {
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  color: orange; }
+
+.wrapper {
+  width: 100px; }
+
+.abc {
+  color: #523314; }
+
+/*@use: https://sass-lang.com/documentation/at-rules/use*/
+/*@forward: https://sass-lang.com/documentation/at-rules/forward */
+
+/*# sourceMappingURL=style.css.map */
