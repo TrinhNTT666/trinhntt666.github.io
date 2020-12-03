@@ -108,6 +108,7 @@
 .special-x{
 	padding-top:100px;
 	border-top: 1px solid #f1f1f1;
+	background:#f7f7f7;
 }
 .one{
 	font-size:0.6875rem;
@@ -149,8 +150,6 @@
 .product{
 	width:360px;
 	height:513px;
-	border-color:#fff;
-	box-shadow: 20px 37px 15px #f0f0f0;
 }
 .text-a{
 	padding-bottom:20px;
