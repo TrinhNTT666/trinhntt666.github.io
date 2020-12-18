@@ -61,6 +61,10 @@
 	color:#45505e;
 }
 /* New arrivals */
+.img {
+    width: 100%;
+    height: 600px;
+}
 .new{
 	color:#fff;
 	font-family:'Alex Brush',cursive;
@@ -189,6 +193,7 @@
 	padding-top:37px;
 	padding-bottom:176px;
 }
+/* slide */
 .text-d{
 	margin-bottom: 120px;
 	position:relative;
