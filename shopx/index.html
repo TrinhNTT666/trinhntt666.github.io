@@ -17,11 +17,13 @@
 						<div class="col-xl-3">
 							<div class="input-group icon-search">
 								<div class="input-group-prepend">
-									<button id="search-a" type="button" class="btn">
-									<i class="fa fa-search"></i>
-									</button>
+									<form>
+										<button id="isearch" type="submit" class="btn">
+											<i class="fa fa-search"></i>
+										</button>
+									</form>
 								</div>
-								<input class="form-control-plaintext" type="text" placeholder="SEARCH" aria-describedby="search-a">
+								<input class="form-control-plaintext" type="text" placeholder="seach" aria-describedby="isearch">
 							</div>
 						</div>
 						<div class="logo col-xl-6">
@@ -66,42 +68,42 @@
 					<div class="container-fluid">
 						<div class="row background-x">
 						
-							<div id="demo" class="carousel slide" data-ride="carousel">
+							<div id="demo" class="carousel slide col-xl-12" data-ride="carousel">
 
-						  <!-- Indicators -->
-							<ul class="carousel-indicators">
-								<li data-target="#demo" data-slide-to="0" class="active"></li>
-								<li data-target="#demo" data-slide-to="1"></li>
-								<li data-target="#demo" data-slide-to="2"></li>
-								<li data-target="#demo" data-slide-to="3"></li>
-								<li data-target="#demo" data-slide-to="4"></li>
-							</ul>
-						  
-						  <!-- The slideshow -->
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img class="img" src="image/imgc.jpg" alt="Los Angeles">
+							  <!-- Indicators -->
+								<ul class="carousel-indicators">
+									<li data-target="#demo" data-slide-to="0" class="active"></li>
+									<li data-target="#demo" data-slide-to="1"></li>
+									<li data-target="#demo" data-slide-to="2"></li>
+									<li data-target="#demo" data-slide-to="3"></li>
+									<li data-target="#demo" data-slide-to="4"></li>
+								</ul>
+							  
+							  <!-- The slideshow -->
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img class="img" src="image/imgc.jpg" alt="Los Angeles">
+									</div>
+									<div class="carousel-item">
+										<img class="img" src="image/imgd.jpg" alt="Chicago">
+									</div>
+									<div class="carousel-item">
+										<img class="img" src="image/imgb.jpg" alt="New York">
+									</div>
+									<div class="carousel-item">
+										<img class="img" src="image/imge.jpg" alt="New York">
+									</div>
+									<div class="carousel-item">
+										<img class="img" src="image/imga.jpg" alt="New York">
+									</div>
 								</div>
-								<div class="carousel-item">
-									<img class="img" src="image/imgd.jpg" alt="Chicago">
-								</div>
-								<div class="carousel-item">
-									<img class="img" src="image/imgb.jpg" alt="New York">
-								</div>
-								<div class="carousel-item">
-									<img class="img" src="image/imge.jpg" alt="New York">
-								</div>
-								<div class="carousel-item">
-									<img class="img" src="image/imga.jpg" alt="New York">
-								</div>
-							</div>
-						  
-							<a class="carousel-control-prev" href="#demo" data-slide="prev">
-								<span class="carousel-control-prev-icon"></span>
-							</a>
-							<a class="carousel-control-next" href="#demo" data-slide="next">
-								<span class="carousel-control-next-icon"></span>
-							</a>
+							  
+								<a class="carousel-control-prev" href="#demo" data-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+								</a>
+								<a class="carousel-control-next" href="#demo" data-slide="next">
+									<span class="carousel-control-next-icon"></span>
+								</a>
 							</div>
 
 							<div class="col-xl-3 main-a"></div>
@@ -147,7 +149,7 @@
 								<form>
 									<div class="input-group icon-search">
 										<div class="input-group-prepend">
-											<button id="searcha" type="button" class="btn">
+											<button id="searcha" type="submit" class="btn">
 											<i class="fa fa-search"></i>
 											</button>
 										</div>
@@ -160,28 +162,28 @@
 									<div id="all" class="tab-pane container  active">
 										<div class="row d-flex special-x">
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aaa">
 														<img src="image/cigara.jpg" alt="thanglong" width="265" height="256">
 													</div>
 													<p class="text-a">LOST CITY</p>
 													<p class="text-b"><span class="text-bb">$4500.00</span> $4275.00</p>
 													<div class="text-mid"></div>
-													<p class="text-c"><i class="fas fa-cart-plus"></i>Add To cart</p>
+													<p class="text-c"><a href="#"><i class="fas fa-cart-plus"></i>Add To cart</a></p>
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9 icon-main-aab">
+												<div class="col-xl-10 icon-main-aab">
 													<div class="icon-main-aaa">
 														<img src="image/cigarb.jpg" alt="baso" width="265" height="256">
 													</div>
@@ -192,12 +194,12 @@
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="aligna"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aac"></div>
 													<div class="abc d-flex flex-column">
 														<div class=".icon-main-aaa">
@@ -213,12 +215,12 @@
 										</div>
 										<div class="row d-flex copy">
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aaa">
 														<img src="image/cigari.jpg" alt="thanglong" width="265" height="256">
 													</div>
@@ -229,12 +231,12 @@
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9 icon-main-aab">
+												<div class="col-xl-10 icon-main-aab">
 													<div class="icon-main-aaa">
 														<img src="image/cigarh.jpg" alt="baso" width="265" height="256">
 													</div>
@@ -245,12 +247,12 @@
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-md-3 d-flex flex-column icon-main-a">
+												<div class="col-md-2 d-flex flex-column icon-main-a">
 													<a href="#" title="aligna"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aac"></div>
 													<div class="abc d-flex flex-column">
 														<div class=".icon-main-aaa">
@@ -269,12 +271,12 @@
 									<div id="behike" class=" tab-pane container ">
 										<div class="row d-flex special-x">
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aaa">
 														<img src="image/bhka.jpg" alt="behike" width="265" height="256">
 													</div>
@@ -285,12 +287,12 @@
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9 icon-main-aab">
+												<div class="col-xl-10 icon-main-aab">
 													<div class="icon-main-aaa">
 														<img src="image/bhkb.jpg" alt="behike" width="265" height="256">
 													</div>
@@ -301,12 +303,12 @@
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="aligna"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aac"></div>
 													<div class="abc d-flex flex-column">
 														<div class=".icon-main-aaa">
@@ -322,12 +324,12 @@
 										</div>
 										<div class="row d-flex copy">
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aaa">
 														<img src="image/bhkd.jpg" alt="behike" width="265" height="256">
 													</div>
@@ -343,12 +345,12 @@
 									<div id="cohiba" class="container tab-pane ">
 										<div class="row d-flex special-x">
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aaa">
 														<img src="image/chba.jpg" alt="cohiba" width="265" height="256">
 													</div>
@@ -359,12 +361,12 @@
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9 icon-main-aab">
+												<div class="col-xl-10 icon-main-aab">
 													<div class="icon-main-aaa">
 														<img src="image/chbb.jpg" alt="cohiba" width="265" height="256">
 													</div>
@@ -375,12 +377,12 @@
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="aligna"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aac"></div>
 													<div class="abc d-flex flex-column">
 														<div class=".icon-main-aaa">
@@ -396,12 +398,12 @@
 										</div>
 										<div class="row d-flex copy">
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aaa">
 														<img src="image/chbd.jpg" alt="cohiba" width="256" height="256">
 													</div>
@@ -412,12 +414,12 @@
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aaa">
 														<img src="image/chbe.jpg" alt="cohiba" width="265" height="256">
 													</div>
@@ -433,12 +435,12 @@
 									<div id="accessories" class="container tab-pane">
 										<div class="row d-flex special-x">
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aaa">
 														<img src="image/pka.jpg" alt="accessories" width="265" height="256">
 													</div>
@@ -449,12 +451,12 @@
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9 icon-main-aab">
+												<div class="col-xl-10 icon-main-aab">
 													<div class="icon-main-aaa">
 														<img src="image/pkb.jpg" alt="accessories" width="265" height="256">
 													</div>
@@ -465,12 +467,12 @@
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="aligna"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aac"></div>
 													<div class="abc d-flex flex-column">
 														<div class=".icon-main-aaa">
@@ -486,12 +488,12 @@
 										</div>
 										<div class="row d-flex copy">
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aaa">
 														<img src="image/pkd.jpg" alt="accessories" width="265" height="256">
 													</div>
@@ -502,12 +504,12 @@
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-xl-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="align"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9 icon-main-aab">
+												<div class="col-xl-10 icon-main-aab">
 													<div class="icon-main-aaa">
 														<img src="image/pke.jpg" alt="accessories" width="265" height="256">
 													</div>
@@ -518,12 +520,12 @@
 												</div>
 											</div>
 											<div class="col-xl-4 d-flex product">
-												<div class="col-md-3 d-flex flex-column icon-main-a">
+												<div class="col-xl-2 d-flex flex-column icon-main-a">
 													<a href="#" title="aligna"><i class="fas fa-align-right"></i></a>
 													<a href="#" title="heart"><i class="far fa-heart"></i></a>
 													<a href="#" title="indent"><i class="fas fa-indent"></i></a>
 												</div>
-												<div class="col-xl-9">
+												<div class="col-xl-10">
 													<div class="icon-main-aac"></div>
 													<div class="abc d-flex flex-column">
 														<div class=".icon-main-aaa">
@@ -554,10 +556,10 @@
 							<div class="col-xl-7">
 								<div class="layer-a">
 									<img class="layer-aa" src="image/layer.png" alt="layer" height="661">
-									<div class="col-xl-1 text-e">
+									
 										<div class="text-ea">SMOKING</div>
-									</div>
-									<div class="col-xl-11 text-f">
+									
+									<div class="col-xl-12 text-f">
 										<div class="text-fa">Featured</div>
 										<img class="layer-b" src="image/layera.jpg" alt="a" width="548" height="560">
 										<div class="text-g">
@@ -645,35 +647,35 @@
 						<div class="col-xl-4 list-c">
 							<a class="instagram" href="https://www.instagram.com/" title="instagram"><span class="fab fa-instagram"></span>Instagram</a>
 							<div class="d-flex">
-								<div>
-								<img src="image/insa.jpg" alt="shopone" width="86" height="100">
-								</div>
-								<div>
-								<img src="image/insb.jpg" alt="shopone" width="86" height="100">
-								</div>
-								<div>
-								<img src="image/insc.jpg" alt="shopone" width="86" height="100">
-								</div>
-								<div>
-								<img src="image/insd.jpg" alt="shopone" width="86" height="100">
-								</div>
+								<a href="https://www.instagram.com/">
+								<img class="img-ins" src="image/insa.jpg" alt="shopone">
+								</a>
+								<a href="https://www.instagram.com/">
+								<img class="img-ins" src="image/insb.jpg" alt="shopone">
+								</a>
+								<a href="https://www.instagram.com/">
+								<img class="img-ins" src="image/insc.jpg" alt="shopone">
+								</a>
+								<a href="https://www.instagram.com/">
+								<img class="img-ins" src="image/insd.jpg" alt="shopone">
+								</a>
 							</div>
-							<div class="d-flex">
-								<div>
-								<img src="image/inse.jpg" alt="shopone" width="86" height="100">
-								</div>
-								<div>
-								<img src="image/insf.jpg" alt="shopone" width="86" height="100">
-								</div>
-								<div>
-								<img src="image/insg.jpg" alt="shopone" width="86" height="100">
-								</div>
-								<div>
-								<img src="image/insh.jpg" alt="shopone" width="86" height="100">
-								</div>
+							<div class="d-flex fanpage">
+								<a href="https://www.instagram.com/">
+								<img class="img-ins" src="image/inse.jpg" alt="shopone">
+								</a>
+								<a href="https://www.instagram.com/">
+								<img class="img-ins" src="image/insf.jpg" alt="shopone">
+								</a>
+								<a href="https://www.instagram.com/">
+								<img class="img-ins" src="image/insg.jpg" alt="shopone">
+								</a>
+								<a href="https://www.instagram.com/">
+								<img class="img-ins" src="image/insh.jpg" alt="shopone">
+								</a>
 							</div>
 							
-							<a class="payment" href="https://momo.vn/"><img src="image/phuongthucthanhtoan.png" alt="phuongthucthanhtoan"></a>
+							<a href="https://momo.vn/"><img class="payment" src="image/phuongthucthanhtoan.png" alt="phuongthucthanhtoan"></a>
 						</div>
 					</div>
 				</div>

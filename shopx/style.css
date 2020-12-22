@@ -109,10 +109,12 @@
 	font-family: 'Roboto', sans-serif;
 }
 /* LONG */
+.bgr{
+	background:#f7f7f7;
+}
 .special-x{
 	padding-top:100px;
 	border-top: 1px solid #f1f1f1;
-	background:#f7f7f7;
 }
 .one{
 	font-size:0.6875rem;
@@ -154,6 +156,9 @@
 .product{
 	width:360px;
 	height:513px;
+	box-shadow: 0 0px 25px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
 }
 .text-a{
 	padding-bottom:20px;
@@ -221,10 +226,10 @@
 	position:relative;
 }
 .text-f{
-	left: 87px;
-	position:absolute;
-	background:#8ed1b7;
-	width:960px;
+	left:125px;
+	background-image:url("image/bgrk.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
 	height:771px;
 }
 .layer-aa{
@@ -325,6 +330,13 @@
 	padding-left:15px;
 	color:#1d1e24;
 }
+.img-ins{
+	width:86px;
+	height:100px;
+	margin-top:5px;
+	margin-left:5px;
+	box-shadow:0 0 50px #f4d2aa;
+}
 .link-b{
 	font-size:0.677rem;
 	color:#7b7c85;
@@ -341,5 +353,6 @@
 	padding-left:100px;
 }
 .payment{
+	padding-top:50px;
 	padding-left:150px;
 }
