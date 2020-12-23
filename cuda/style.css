@@ -535,13 +535,17 @@ header{
 	float:left;
 	margin-top:50px;
 }
-#yourname{
-	width:297px;
-	height:56px;
-	font-size:1rem;
-	line-height:1.125rem;
+.text-xx{
+	margin-left:10px;
+	padding-left:20px;
+	color:#fff;
+	font-size:20px;
+}
+.text-xxx{
+	width:80%;
 	background:#273a71;
-	float:left;
+	padding:15px 25px;
+	border-radius:5px;
 }
 #blue-cc{
 	padding:15px 25px;
@@ -606,15 +610,3 @@ header{
 }
 /* end footer */
 
-.text-xx{
-	margin-left:10px;
-	padding-left:20px;
-	color:#fff;
-	font-size:20px;
-}
-.text-xxx{
-	width:80%;
-	background:#273a71;
-	padding:15px 25px;
-	border-radius:5px;
-}
