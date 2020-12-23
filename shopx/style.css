@@ -31,6 +31,13 @@
 	position:absolute;
 	border-radius:50%;
 }
+.btn-primary{
+	background:#fff;
+	border:none;
+}
+.dropdown-item{
+	border:none;
+}
 .fa-align-right{
 	color:#000;
 }
@@ -226,13 +233,16 @@
 	position:relative;
 }
 .text-f{
-	left:125px;
+	
 	background-image:url("image/bgrk.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	height:771px;
 }
 .layer-aa{
+	left:0;
+	right:-150px;
+	height:661px;
 	top:60px;
 	position:absolute;
 }
@@ -248,15 +258,17 @@
 }
 .text-fa{
 	letter-spacing:12px;
-	padding-left:50px;
+	padding-left:80px;
 	padding-top:68px;
 	color:#86c5ac;
 	line-height:1.5rem;
 	font-size:10.5rem;
 }
 .layer-b{
+	width:548px;
+	height:560px;
 	top: 121px;
-	left:248px;
+	left:200px;
 	position:absolute;
 }
 .text-g{
@@ -288,7 +300,7 @@
 	font-size:0.67rem;
 	text-decoration:underline;
 	font-family: 'Roboto', serif;
-	color:#fff;
+	color:red;
 }
 .icon-special{
 	text-align:center;
@@ -355,4 +367,120 @@
 .payment{
 	padding-top:50px;
 	padding-left:150px;
+}
+/* TEST */
+.text-fl p{
+
+    color: #d93337;
+    
+    
+    letter-spacing:10px;
+    
+    animation: text-flicker 4s linear infinite;
+    
+    }
+    
+	#off-fl{
+    
+    animation: letter-flicker 2s linear infinite;
+    
+    }
+    
+    @keyframes text-flicker {
+    
+    0% {
+    
+    opacity:0.1;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+    
+    }
+    
+    2% {
+    
+    opacity:1;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+    
+    }
+    
+    8% {
+    
+    opacity:0.1;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+    
+    }
+    
+    9% {
+    
+    opacity:1;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+    
+    }
+    
+    12% {
+    
+    opacity:0.1;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+    
+    }
+    
+    20% {
+    
+    opacity:1;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+    
+    }
+    
+    25% {
+    
+    opacity:0.3;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+    
+    }
+    
+    30% {
+    
+    opacity:1;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+    
+    }
+    
+    70% {
+    
+    opacity:0.7;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+    
+    }
+    
+    72% {
+    
+    opacity:0.2;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+    
+    }
+    
+    77% {
+    
+    opacity:0.9;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+    
+    }
+    
+    100% {
+    
+    opacity:0.9;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+    
+    }
 }
