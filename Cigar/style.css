@@ -10,6 +10,10 @@
 	text-align:center;
 	padding-bottom:37px;
 }
+#demo{
+	padding:0;
+	margin:0;
+}
 @media (prefers-reduced-motion: no-preference){
 	.setting-lg{
 		animation: logo infinite 10s linear;
@@ -344,7 +348,7 @@
 }
 /* end section */
 .logo-a{
-    padding-top: 130px;
+    padding-top: 65px;
 	padding-bottom: 25px;
 }
 .text-k{
