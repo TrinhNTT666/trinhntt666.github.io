@@ -36,6 +36,10 @@
 	box-shadow:0 0 1.5em hsla(0, 0%, 0%, 0.35);
 	position:absolute;
 }
+span{
+	letter-spacing:20px;
+	font-size:4.5rem;
+}
 .modal-header h3{
     position: absolute;
 	font-family: 'Mr Dafoe', cursive;
