@@ -508,7 +508,6 @@
     }
 }
 /* new */
-/* Animation - Rainbow Fire */
 .css-fizzy {
 	position:absolute;
 	right:0;
@@ -523,7 +522,7 @@
 	animation: css-fizzy 12s linear 0s infinite;
 }
  
-/* The animation code */
+
 @keyframes css-fizzy {
 0% {
 	text-shadow:
