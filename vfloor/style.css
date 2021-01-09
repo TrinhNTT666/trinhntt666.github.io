@@ -214,8 +214,7 @@ font-size:1.5rem;
 iframe{
 	padding:50px 5px;
 }
-a,
-a:hover {
+a,a:hover {
 	text-decoration: none !important;
 }
 
@@ -306,7 +305,6 @@ a:hover {
 
 .call-icon:hover>span,
 .mes:hover>span,
-.sms:hover>span,
 .zalo:hover>span {
 	display: block
 }
