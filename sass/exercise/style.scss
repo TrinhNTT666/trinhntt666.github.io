@@ -1,0 +1,89 @@
+$string_1: blue;
+$string_2: #fff;
+$string_3: #faf;
+$string_4: #5fe;
+$string_5: #aef;
+$fontFamily: Helvetica, san-serif;
+ 
+header{
+	$string_2:red !global;
+	background:$string_2;
+}
+@use"sass:map";
+$theme-color:(
+	"success":#444,
+	"info":#1be2ad,
+);
+.alert{
+	color: map-get($theme-color,"info");
+}
+ul{
+	margin:0;
+	list-style-type:none;
+	li{
+		display:inline-block;
+		a{
+			text-decoration:none;
+			font:{
+				family:$fontFamily;
+				size:20px;
+				weight:bold;
+			}
+		}
+	}
+}
+ul>{
+	li{
+		background-color:red;
+	}	
+}
+h2{
+	+p{
+		background-color:blue;
+	}
+}
+p{
+	~{
+		a{
+			color:#fff;
+		}
+		span{
+			text-decoration:underline;
+		}
+	}
+}
+.circle{
+	$size:100px;
+	width:$size;
+	height:$size;
+	border-radius:$size/2;
+	&-copy{
+	background-color:#f34;
+	}
+}
+a{
+	color:#fff;
+	&:hover{
+		color:#f2f;
+	}
+}
+section{
+	background:#2f3;
+}
+/*placeholder selector*/
+%example{
+	box-sizing:border-box;
+	padding:116px 0;
+	width:100%;
+	&:hover{
+		background-color:#f2f;
+	}
+}
+.action-button{
+	@extend %example;
+	color:#11a4da;
+}
+.reset-button{
+	@extend %example;
+	color:#f1a;
+}
